@@ -80,7 +80,7 @@ test-suite wkt-geom-test
                      , Data.SpecHelper  
   main-is:             Spec.hs
   build-depends:       base              < 5 &&     >= 4.8 
-                     , base16-bytestring            >= 0.1.1.6
+                     , base16-bytestring < 1.1 &&   >= 1.0.0.0
                      , binary                       >= 0.8
                      , ansi-wl-pprint               >= 0.6
                      , bytestring                   >= 0.10
